@@ -1,0 +1,3 @@
+# Project exclude paths
+/spring-boot-demo-logging/target/
+/spring-boot-demo-poi-tl/target/

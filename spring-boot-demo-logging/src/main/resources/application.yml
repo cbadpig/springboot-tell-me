@@ -1,0 +1,14 @@
+#slf4j日志配置
+logging:
+  file:
+    path: logging/springboot/
+    name: demo.log
+    max-size: 10240
+    max-history: 7
+  level: #level 设置登记必须是定位到包的路径下才会有效
+    com:
+      springboot:
+        demo: debug
+  pattern:
+    dateformat: yyyy-MM-dd HH:mm:ss:SSS #输出日期格式
+    console: "%d %-5level [%thread] %logger{36}: %msg%n" #输出内容

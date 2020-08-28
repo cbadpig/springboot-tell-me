@@ -1,0 +1,13 @@
+%d：表示日期时间
+
+%thread：表示线程名
+
+%‐5level：级别从左显示5个字符宽度      
+
+%logger{50}：表示logger名字最长50个字符，否则按照句点分割。   
+
+%msg：日志消息
+
+%n：是换行符 
+
+%d{yyyy‐MM‐dd HH:mm:ss.SSS} [%thread] %‐5level %logger{50} ‐ %msg%n
