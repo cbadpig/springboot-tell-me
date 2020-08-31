@@ -21,4 +21,8 @@ public class Slf4jController {
         return "slf4jdemo";
     }
 
+    public static void main(String[] args) {
+        int randindex = (int)(24*Math.random());
+        System.out.println(randindex);
+    }
 }

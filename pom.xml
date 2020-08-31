@@ -12,6 +12,7 @@
         <module>spring-boot-demo-logging</module>
         <module>spring-boot-demo-swagger3</module>
         <module>spring-boot-demo-poi-tl</module>
+        <module>spring-boot-demo-javase</module>
     </modules>
 
     <properties>
