@@ -57,11 +57,10 @@ public class WordToTable {
         wordBean.setExceptionPaperList(exceptionPaperList);
         wordBean.setDisciplineStudentList(disciplineStudentList);
     }
-/*
     public static void main(String[] args) {
         String templatePath = "C:\\Users\\cbadpig\\Desktop\\word\\template2.docx";
         String wordPath = "C:\\Users\\cbadpig\\Desktop\\word\\template_out2.docx";
         word(templatePath,wordPath);
 
-    }*/
+    }
 }
