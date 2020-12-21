@@ -82,3 +82,6 @@
 * dubbo
 * Seata
 * TCC Transaction
+
+### 其他
+* lambda表达式

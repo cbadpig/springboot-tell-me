@@ -13,16 +13,17 @@
         <module>spring-boot-demo-swagger3</module>
         <module>spring-boot-demo-poi-tl</module>
         <module>spring-boot-demo-javase</module>
+        <module>spring-boot-demo-2000-helloWord</module>
     </modules>
 
     <properties>
-        <java.version>14.0.1</java.version>
+        <java.version>14</java.version>
     </properties>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.3.3.RELEASE</version>
+        <version>2.4.1</version>
     </parent>
     <dependencies>
         <dependency>
@@ -32,7 +33,7 @@
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
-            <version>1.18.12</version>
+            <version>1.18.16</version>
             <scope>provided</scope>
         </dependency>
         <dependency>
@@ -42,11 +43,13 @@
         </dependency>
 
     </dependencies>
+
     <build>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+                <version>2.4.0</version>
             </plugin>
         </plugins>
     </build>

@@ -5,14 +5,13 @@ package com.cbadpig.tell.me.demo.util;
  */
 public class FullPermutationUtil {
     public static void permutation(char a[], int m, int n) {
-        int i;
-        char t;
         if (m < n - 1) {
             permutation(a, m + 1, n);
-            for (i = m + 1; i < n; i++) {
-                t = a[m];
+            for (int i = m + 1; i < n; i++) {
+                char t = a[m];
                 a[m] = a[i];
                 a[i] = t;
+
                 permutation(a, m + 1, n);
                 t = a[m];
                 a[m] = a[i];
@@ -27,13 +26,24 @@ public class FullPermutationUtil {
         for (int i = 0; i < text.length; i++) {
             System.out.print(text[i]);
         }
-        System.out.println();
+        System.out.print(",");
     }
 
-    public static char[] text = { 'a', 'b' };
+    public static char[] text = { 'a', 'b', 'c', 'd'};
+
+    public static void fullPermutation(String[] strs) {
+        int start = 0;
+        int end = strs.length - 1;
+
+        if(start == end) {
+
+        }
+    }
+
 
     public static void main(String[] args) {
         permutation(text, 0, text.length);
-        System.exit(0);
+        String str = "ABC";
+        fullPermutation(str.split(""));
     }
 }
